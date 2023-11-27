@@ -332,3 +332,26 @@ a {
         font-size: 1.7rem;
     }
 }
+
+/* Icons moet je gewoon een beetje op die website opzoeken (fontawesome) en inline styles doen helaas. Misschien lter uitzoeken hoe ik dat weg kan halen en kijken of Sprite het wel doet.*/
+
+
+
+/* Media */
+
+.media {
+    display: flex;
+}
+
+.media__title {
+    margin-top: 0;
+}
+
+.media__body {
+    margin: 0 2rem;
+}
+
+.media__image {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
