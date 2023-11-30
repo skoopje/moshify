@@ -414,13 +414,45 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-    .grid--1x3 {
-        grid-template-columns: 1fr 1fr 1fr;
+    .grid--1x2 {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .grid--1x3 {
-        grid-template-columns: 1fr 1fr 1fr;
+    .grid--1x2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Testimonials */
+
+.testimonial {
+    padding: 3rem;
+}
+
+.testimonial__image {
+    position: relative;
+}
+
+.testimonial__image > img {
+    width: 100%;
+}
+
+.testimonial__image > i {
+    color: tomato;
+    position: absolute;
+    right: -15px;
+    top: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .testimonial .quote, 
+    .testimonial .quote__author {
+        font-size: 2.4rem;
+    }
+
+    .testimonial .quote {
+        margin-left: 6rem;
     }
 }
