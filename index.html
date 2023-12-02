@@ -18,50 +18,66 @@
     ></script>
   </head>
   <body>
-    <section class="block">
-      <header class="block__header">
-        <h2>What our customers are Saying</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
-          adipisci?
-        </p>
-      </header>
-      <div class="container">
-        <div class="card testimonial">
-          <div class="grid grid--1x2">
-            <div class="testimonial__image">
-              <img
-                class="testimonial__image"
-                src="images/testimonial.jpg"
-                alt="Happy smiling customer"
-              />
-              <i class="fa-solid fa-quote-right fa-2xl"></i>
-            </div>
-            <blockquote class="quote">
-              <p class="quote__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-                obcaecati doloribus optio itaque adipisci atque excepturi cum
-                placeat rerum totam?
-              </p>
-              <footer>
-                <div class="media">
-                  <div class="media__image">
-                    <i
-                      class="fa-solid fa-bars fa-2xl quote__line"
-                      style="color: #791a3e"
-                    ></i>
-                  </div>
-                  <div class="media__body">
-                    <h3 class="media__title quote__author">Stijn Koopmans</h3>
-                    <p class="quot__company">ABC Company</p>
-                  </div>
-                </div>
-              </footer>
-            </blockquote>
+    <footer class="block block__dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Products</h2>
+            <i class="fa-solid fa-arrow-down fa-2xl icon collapsible__icon"></i>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Website Hosting</a></li>
+              <li><a href="#">Free Automated Wordpress</a></li>
+              <li><a href="#">Migrations</a></li>
+            </ul>
           </div>
-        </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Company</h2>
+            <i class="fa-solid fa-arrow-down fa-2xl icon collapsible__icon"></i>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Affiliates</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Support</h2>
+            <i class="fa-solid fa-arrow-down fa-2xl icon collapsible__icon"></i>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Domains</h2>
+            <i class="fa-solid fa-arrow-down fa-2xl icon collapsible__icon"></i>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Domain Checker</a></li>
+              <li><a href="#">Domain Transfer</a></li>
+              <li><a href="#">Free Domain</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__brand">
+          <img src="images/logo.svg" alt="" />
+          <p class="footer__copyright">Copyright 2023 Stijn Koopmans</p>
+        </section>
       </div>
-    </section>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>
